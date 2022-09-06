@@ -1,0 +1,115 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-section .hero-content h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 62px;
+  }
+  .hero-section nav {
+    z-index: +1;
+    background: #F8F9FA;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+    border-radius: 8px;
+  }
+  .hero-section .hero-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+  }
+  .signup-btn {
+    width: 100%;
+    margin: 0 auto;
+    color: #000!important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .signup-btn img {
+    width: 32px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .hero-section ul li a {
+    margin-left: 0px;
+  }
+  .select-section {
+  }
+  .select-row {
+    max-width: 390px;
+    height: 368px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 230px;
+    background: #FFFFFF!important;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+    border-radius: 8px;
+  }
+  .brand-section {
+    margin-top: 170px;
+  }
+  .select-section .btn {
+    display: block;
+    width: 100%;
+  }
+  .brand-section img {
+    margin: 20px 0px ;
+  }
+  .auctions-section {
+    text-align: center;
+
+  }
+  .sell-card-div .sell-card {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+} 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .select-row {
+    position: static;
+  }
+  .brand-section {
+    padding: 30px 0px;
+  }
+  .brand-section img {
+    margin: 20px 0px ;
+  }
+  .signup-btn {
+    width: 100%;
+    margin: 0 auto;
+    color: #000!important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .signup-btn img {
+    width: 32px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}

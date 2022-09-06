@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body h1 ,h2 ,h3 ,h4 ,h5, p {
+	font-family: 'Inter';
+}
+.signup-btn {
+	color: #9A9EA7!important;
+	display: inline-block;
+}
+.sign-up-ul {
+	display: flex;
+}
+.sign-up-img {
+	margin-right: 9px;
+}
+.hero-section {
+	overflow: hidden;
+}
+.hero-section ul li a {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+	margin-left: 20px;
+}
+.hero-section .hero-content h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 74px;
+	text-align: center;
+	letter-spacing: -0.304762px;
+	color: #FFFFFF;
+	padding-top: 176px;
+}
+.hero-section .hero-content p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 26px;
+	padding-bottom: 160px;
+}
+.hero-content {
+	background: url(../img/hero.png);
+}
+/*SELECT SECTION*/
+
+.select-section p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+}
+.select-section select {
+	border: none;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+}
+.select-section .other-div select {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+}
+.select-section .btn {
+	background: #7963F0;
+	border-radius: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #FFFFFF;
+	width: 120px;
+	height: 46px;
+	padding-top: 10px;
+}
+.select-section .btn-img {
+	margin-right: 8px;
+}
+.select-row {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 585px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+	border-radius: 8px;
+	max-width: 945px;
+	height: 82px;
+}
+.type-div, .make-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.other-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*brand section*/
+.brand-section {
+	position: relative;
+	min-height: 221px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.brand-section img {
+	display: inline-block;
+}
+.type-make-line {
+	position: absolute;
+	left: 120px;
+}
+.auctions-section .sell-card {
+	padding-bottom: 29px;
+	width: 360px;
+	height: auto;
+}
+.auctions-section h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 36px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+}
+.auctions-section span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: right;
+	color: #9A9EA7;
+}
+.auctions-section .sell-card {
+	background: #FFFFFF;
+	border: 1px solid #E4E6E8;
+	border-radius: 14px;
+	padding-top: 26px;
+}
+.auctions-section .sell-card img {
+	display: block;
+	margin: 0 auto;
+}
+.sell-card .top-group h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+	color: #0D0A19!important;
+}
+.sell-card .top-group span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+}
+.sell-card .mid-group {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.sell-card .mid-group img {
+	padding: 8px;
+	border: 1px solid #E4E6E8;
+	border-radius: 8px;
+}
+.sell-card .mid-group .h4-span {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 12px;
+}
+.sell-card .mid-group h4 , .bot-group h4 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+	margin-bottom: 4px;
+}
+.sell-card span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+	margin-top: 0px;
+}
+.sell-card .bot-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 24px;
+}
+.sell-card .bot-group .bid-btn {
+	display: inline-block;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: -0.1px;
+	color: #FFFFFF;
+	background: #7963F0;
+	border-radius: 10px;
+	width: 116px;
+	height: 46px;
+	padding-top: 12px;
+}
