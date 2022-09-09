@@ -135,6 +135,9 @@ body h1 ,h2 ,h3 ,h4 ,h5, p {
 	position: absolute;
 	left: 120px;
 }
+.auctions-section {
+	margin-bottom: 173px;
+}
 .auctions-section .sell-card {
 	padding-bottom: 29px;
 	width: 360px;
@@ -240,4 +243,55 @@ body h1 ,h2 ,h3 ,h4 ,h5, p {
 	width: 116px;
 	height: 46px;
 	padding-top: 12px;
+}
+
+/* online auctions section */
+
+.online-auctions-section .left-part h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 36px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+}
+.online-auctions-section .left-part h5 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+	margin-bottom: 12px;
+}
+.online-auctions-section .left-part p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+	margin-top: 22px;
+}
+.left-part .btn  {
+	background: #F5F6F7;
+	border-radius: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+	width: 205px;
+	height: 52px;
+	padding-top: 12px;
+}
+.left-part .btn img {
+	width: 18px;
+	height: auto;
+	margin-right: 10px;
 }
