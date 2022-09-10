@@ -105,6 +105,9 @@ footer .upper-footer h5 {
   display: block; 
   width: 100%;
 }
+.auctions-section .sell-card .line4 {
+  display: none;
+}
 } 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
