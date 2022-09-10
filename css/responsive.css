@@ -81,10 +81,25 @@
   .online-auctions-section .left-part {
     margin-bottom: 30px;
   }
+  .find-car-section {
+    text-align: center;
+  }
+  .find-car-section .car-list p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .find-car-section .car-list .car-list-content {
+  margin-top: 35px;
+}
+.find-car-section .other-makes-content .list-normal {
+  padding-right: 20px;
+}
 } 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .example {background: green;}
+  .find-car-section .other-makes-content .list-normal {
+    padding-right: 20px;
+  }
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 

@@ -295,3 +295,111 @@ body h1 ,h2 ,h3 ,h4 ,h5, p {
 	height: auto;
 	margin-right: 10px;
 }
+/*find car section*/
+.find-car-section {
+	margin-top: 105px;
+}
+.find-car-sectoion h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 36px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+}
+.find-car-sectoion .car-list {
+	margin-top: 23px;
+} 
+.car-heading {
+	justify-content: space-between;
+}
+.car-heading a {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: -0.1px;
+	color: #9A9EA7!important;
+	border: none;
+	background: #fff!important;
+}
+.car-heading .selected {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: -0.1px;
+	color: #0D0A19!important;
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	border-radius: 8px;
+}
+.car-list .popular-makes .car-list-content {
+	display: flex;
+}
+.car-list .popular-makes .car-list-content span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+}
+.car-list .popular-makes .car-list-content .find-arrow {
+	margin-left: 143px;
+}
+.car-list .other-makes-content{
+	display: flex;
+	justify-content: space-between;
+}
+.find-car-section .other-makes-2 {
+	margin-top: 41px;
+}
+.find-car-section .car-list p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+}
+.find-car-section .other-makes-content .list-bold {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 35px;
+	color: #0D0A19;
+}
+.find-car-section .other-makes-content .list-normal {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: right;
+	color: #0D0A19;
+	padding-right: 101px;
+}
+.find-car-section .car-list .car-list-content {
+	margin-top: 55px;
+}
+.find-car-section .car-list .car-list-content img {
+	margin-right: 31px;
+	margin-top: 15px;
+}
+.find-car-section .car-list h5 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+	color: #0D0A19;
+}
