@@ -143,6 +143,9 @@ body h1 ,h2 ,h3 ,h4 ,h5, p {
 	width: 360px;
 	height: auto;
 }
+.auctions-section .mid-group {
+	justify-content: center;
+}
 .auctions-section h1 {
 	font-style: normal;
 	font-weight: 700;
@@ -298,6 +301,7 @@ body h1 ,h2 ,h3 ,h4 ,h5, p {
 /*find car section*/
 .find-car-section {
 	margin-top: 105px;
+	padding-bottom: 100px;
 }
 .find-car-sectoion h2 {
 	font-family: 'Inter';
@@ -402,4 +406,55 @@ body h1 ,h2 ,h3 ,h4 ,h5, p {
 	font-size: 18px;
 	line-height: 27px;
 	color: #0D0A19;
+}
+
+/* Footer Section */
+footer {
+	text-align: center;
+}
+footer .upper-footer {
+	background: #F5F6F7;
+	padding-top: 56px;
+	padding-bottom: 58px;
+}
+footer .upper-footer h5 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+}
+footer .upper-footer a {
+	display: block;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 33px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+}
+footer .lower-footer a {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #0D0A19;
+}
+footer .lower-footer span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	color: #9A9EA7;
+}
+footer .lower-footer {
+	padding-top: 18px;
+	padding-bottom: 18px;
 }

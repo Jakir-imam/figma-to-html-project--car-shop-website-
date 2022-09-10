@@ -40,8 +40,6 @@
   .hero-section ul li a {
     margin-left: 0px;
   }
-  .select-section {
-  }
   .select-row {
     max-width: 390px;
     height: 368px;
@@ -55,7 +53,7 @@
     border-radius: 8px;
   }
   .brand-section {
-    margin-top: 170px;
+    margin-top: 50px;
     margin-bottom: 30px;
   }
   .select-section .btn {
@@ -83,6 +81,7 @@
   }
   .find-car-section {
     text-align: center;
+    padding-bottom: 0px;
   }
   .find-car-section .car-list p {
     margin-top: 40px;
@@ -94,13 +93,31 @@
 .find-car-section .other-makes-content .list-normal {
   padding-right: 20px;
 }
+footer .upper-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer .upper-footer h5 {
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.auctions-section .sell-card .bot-group {
+  display: block; 
+  width: 100%;
+}
 } 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .find-car-section .other-makes-content .list-normal {
     padding-right: 20px;
   }
-  /* Medium devices (landscape tablets, 768px and up) */
+  .auctions-section {
+  margin-bottom: 50px;
+}
+.auctions-section .left-part {
+  margin-bottom: 60px;
+}
+}
 @media only screen and (max-width: 768px) {
 
 } 
